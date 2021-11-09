@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>JS Drum Kit</title>
+</head>
+<body>
+  <main class="keys">
+    <div class="key">
+      <div class="key-name">A</div>
+      <div class="sound-name">boom</div>
+      <div class="key-overlay" data-key="a"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">S</div>
+      <div class="sound-name">clap</div>
+      <div class="key-overlay" data-key="s"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">D</div>
+      <div class="sound-name">hihat</div>
+      <div class="key-overlay" data-key="d"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">F</div>
+      <div class="sound-name">kick</div>
+      <div class="key-overlay" data-key="f"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">G</div>
+      <div class="sound-name">openhat</div>
+      <div class="key-overlay" data-key="g"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">H</div>
+      <div class="sound-name">ride</div>
+      <div class="key-overlay" data-key="h"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">J</div>
+      <div class="sound-name">snare</div>
+      <div class="key-overlay" data-key="j"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">K</div>
+      <div class="sound-name">tink</div>
+      <div class="key-overlay" data-key="k"></div>
+    </div>
+    <div class="key">
+      <div class="key-name">L</div>
+      <div class="sound-name">tom</div>
+      <div class="key-overlay" data-key="l"></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <span class="footer-span">Click</span> on tile or press keyboard <span class="footer-span">key</span> to play the sound
+  </footer>
+
+  <audio src="./sounds/boom.wav" data-key="a"></audio>
+  <audio src="./sounds/clap.wav" data-key="s"></audio>
+  <audio src="./sounds/hihat.wav" data-key="d"></audio>
+  <audio src="./sounds/kick.wav" data-key="f"></audio>
+  <audio src="./sounds/openhat.wav" data-key="g"></audio>
+  <audio src="./sounds/ride.wav" data-key="h"></audio>
+  <audio src="./sounds/snare.wav" data-key="j"></audio>
+  <audio src="./sounds/tink.wav" data-key="k"></audio>
+  <audio src="./sounds/tom.wav" data-key="l"></audio>
+  <script src="./script.js"></script>
+</body>
+</html>
